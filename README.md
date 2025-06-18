@@ -1,1 +1,1 @@
-# EcoRoute-A-Sustainable-Travel-Planner
+EcoRoute is a simple and eco-conscious web application that helps users plan sustainable travel routes. The app allows users to choose different transportation modes and alerts them if the traffic is high in a particular area so they can make better decisions and avoid delays. The focus is on promoting green travel by encouraging users to walk, bike, take public transport, or use electric vehicles (EVs).
