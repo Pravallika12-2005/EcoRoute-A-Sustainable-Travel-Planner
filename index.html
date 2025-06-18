@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoRoute - Sustainable Travel Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>EcoRoute 🚦</h1>
+    <p>Plan your route smartly and sustainably!</p>
+
+    <div class="form-section">
+      <label for="start">Start Point:</label>
+      <input type="text" id="start" placeholder="e.g., Home" />
+
+      <label for="end">Destination:</label>
+      <input type="text" id="end" placeholder="e.g., Office" />
+
+      <label for="area">Enter Area to Check Traffic:</label>
+      <input type="text" id="area" placeholder="e.g., Main Street" />
+
+      <label for="mode">Choose Transport Mode:</label>
+      <select id="mode">
+        <option value="walk">🚶 Walk</option>
+        <option value="bike">🚴 Bike</option>
+        <option value="bus">🚌 Bus</option>
+        <option value="ev">🚗 EV Car</option>
+      </select>
+
+      <button onclick="planRoute()">Plan Route</button>
+    </div>
+
+    <div id="trafficResult" class="traffic-box"></div>
+    <div id="routeResult" class="result-box"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
